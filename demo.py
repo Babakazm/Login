@@ -17,7 +17,7 @@ cursor =conn.cursor()
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS users(
            
-               ID_number INTEGER,
+               ID_number INTEGER PRIMARY KEY,
                name TEXT,
                age INTEGER,
                password TEXT,
